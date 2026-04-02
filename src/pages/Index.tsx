@@ -107,7 +107,7 @@ export default function Index() {
           </p>
           <div className="flex items-center justify-end gap-2">
             <Icon name="Phone" size={15} className="text-sky-300" />
-            <span className="text-white font-semibold text-lg">+927 339 9408</span>
+            <span className="text-white font-semibold text-lg">+7 927 339 94 08</span>
           </div>
         </div>
 
