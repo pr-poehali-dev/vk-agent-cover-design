@@ -93,28 +93,21 @@ export default function Index() {
               Sunwave Travel
             </span>
           </div>
-          <div className="flex items-center gap-1 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
-            <Icon name="Phone" size={14} className="text-white" />
-            <span className="text-white text-sm font-medium">+927 339 9408</span>
-          </div>
+
         </div>
 
         {/* Hero text */}
-        <div className="absolute bottom-0 left-0 right-0 pb-12 px-6 md:px-12 z-10">
+        <div className="absolute bottom-0 right-0 pb-12 px-6 md:px-12 z-10 text-right">
           <h1 className="font-cormorant text-5xl md:text-7xl text-white leading-none mb-4">
             Путешествуй<br />
             <em className="font-light italic">со мной</em>
           </h1>
-          <p className="text-white/80 text-base max-w-md mb-8">
+          <p className="text-white/80 text-base max-w-md mb-4 ml-auto">
             Круизы, оздоровительные туры, горящие предложения — подберём идеальный отдых для каждого
           </p>
-          <div className="flex items-center gap-4">
-            <button className="bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-semibold px-7 py-3 rounded-full transition-all duration-200 hover:scale-105 shadow-lg shadow-sky-500/30 text-sm">
-              Подобрать тур
-            </button>
-            <button className="border border-white/40 text-white px-7 py-3 rounded-full text-sm hover:bg-white/10 transition-all duration-200">
-              Узнать цену
-            </button>
+          <div className="flex items-center justify-end gap-2">
+            <Icon name="Phone" size={15} className="text-sky-300" />
+            <span className="text-white font-semibold text-lg">+927 339 9408</span>
           </div>
         </div>
 
