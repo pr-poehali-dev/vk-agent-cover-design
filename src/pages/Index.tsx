@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/d46991a0-ab58-4015-8804-6c3d13caf1e3/files/b8dd79dd-1ac1-4080-a2ec-845e3de532f8.jpg";
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/d46991a0-ab58-4015-8804-6c3d13caf1e3/files/271e5b3f-91dd-4cd4-9912-887807ce9d76.jpg";
 
 const categories = [
   {
@@ -95,21 +95,18 @@ export default function Index() {
           </div>
           <div className="flex items-center gap-1 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
             <Icon name="Phone" size={14} className="text-white" />
-            <span className="text-white text-sm font-medium">+7 (800) 555-35-35</span>
+            <span className="text-white text-sm font-medium">+927 339 9408</span>
           </div>
         </div>
 
         {/* Hero text */}
         <div className="absolute bottom-0 left-0 right-0 pb-12 px-6 md:px-12 z-10">
-          <p className="text-[#7dd3fc] text-sm tracking-[0.3em] uppercase mb-3 font-medium">
-            Турагентство
-          </p>
           <h1 className="font-cormorant text-5xl md:text-7xl text-white leading-none mb-4">
-            Путешествия<br />
-            <em className="font-light italic">вашей мечты</em>
+            Путешествуй<br />
+            <em className="font-light italic">со мной</em>
           </h1>
           <p className="text-white/80 text-base max-w-md mb-8">
-            Мальдивы, круизы, оздоровительные туры — подберём идеальный отдых для каждого
+            Круизы, оздоровительные туры, горящие предложения — подберём идеальный отдых для каждого
           </p>
           <div className="flex items-center gap-4">
             <button className="bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-semibold px-7 py-3 rounded-full transition-all duration-200 hover:scale-105 shadow-lg shadow-sky-500/30 text-sm">
@@ -121,22 +118,7 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Floating stats */}
-        <div className="absolute right-6 md:right-12 bottom-12 z-10 hidden md:flex flex-col gap-3">
-          {[
-            { num: "5 000+", label: "клиентов" },
-            { num: "120+", label: "направлений" },
-            { num: "15", label: "лет опыта" },
-          ].map((s) => (
-            <div
-              key={s.label}
-              className="bg-white/15 backdrop-blur-md rounded-2xl px-5 py-3 text-right border border-white/20"
-            >
-              <div className="text-white font-bold text-xl leading-none">{s.num}</div>
-              <div className="text-white/60 text-xs mt-1">{s.label}</div>
-            </div>
-          ))}
-        </div>
+
       </section>
 
       {/* TABS NAVIGATION */}
